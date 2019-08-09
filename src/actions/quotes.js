@@ -25,4 +25,3 @@ export function downvoteQuote(quoteId) {
 		quoteId
 	}
 }
-
