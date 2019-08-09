@@ -39,8 +39,10 @@ class QuoteForm extends Component {
                     <label htmlFor="content" className="col-md-4 control-label">Quote</label>
                     <div className="col-md-5">
                       <textarea
+                        onChange={event => this.handleOnChange(event)}
                         className="form-control"
                         value={this.state.content}
+                        name="content"
                       />
                     </div>
                   </div>
